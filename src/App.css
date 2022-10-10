@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-align: center; /* H1 tag wouldn't center without this */
 }
 
 .App-link {
@@ -35,4 +36,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
